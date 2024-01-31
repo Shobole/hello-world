@@ -1,0 +1,25 @@
+* text=auto
+
+*.grc    text
+*.py     text
+
+*.iq     binary
+
+*.md     text
+*.txt    text
+*.csv    text
+
+*.mp3    binary
+*.m4a    binary
+*.wav    binary
+*.ogg    binary
+*.flac   binary
+
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.svg    text
+
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb
